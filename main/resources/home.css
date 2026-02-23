@@ -1,0 +1,117 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+nav {
+    background: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 15px 0; /* Padding for nav */
+    text-align: center; /* Centered text */
+}
+
+nav .logo h1 {
+    margin: 0; /* Remove default margin */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px; /* Padding for main */
+}
+
+/* Welcome Section */
+.welcome {
+    background: #e0f7e0; /* Light green background */
+    padding: 30px; /* Increased padding */
+    text-align: center; /* Centered text */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below section */
+}
+
+/* Featured Destinations */
+.featured-destinations {
+    margin: 20px 0; /* Margin for featured section */
+}
+
+/* Destination List */
+.destination-list {
+    display: grid; /* Grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two columns for destinations */
+    gap: 20px; /* Gap between cards */
+    padding: 20px; /* Padding for list */
+}
+
+/* Destination Card */
+.destination {
+    background-color: white; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+    overflow: hidden; /* Hide overflow */
+    transition: transform 0.3s; /* Smooth transition */
+}
+
+.destination:hover {
+    transform: translateY(-5px); /* Lift on hover */
+}
+
+.destination img {
+    width: 40%; /* Full width */
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Maintain aspect ratio */
+    transition: transform 0.5s; /* Smooth image scaling */
+}
+
+.destination img:hover {
+    transform: scale(1.05); /* Scale image on hover */
+}
+
+.destination h3 {
+    font-size: 1.5em; /* Heading size */
+    margin: 10px; /* Margin */
+}
+
+.destination p {
+    margin: 10px; /* Margin for paragraph */
+    font-size: 1em; /* Font size */
+    color: #555; /* Darker gray text */
+}
+
+/* Upcoming Events, Cultural Highlights, Travel Tips */
+.upcoming-events, .cultural-highlights, .travel-tips {
+    background: #b2e0b2; /* Vibrant green background */
+    padding: 15px; /* Padding */
+    margin: 20px 0; /* Margin */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Footer */
+footer {
+    background: #333; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center; /* Centered text */
+    padding: 10px 0; /* Padding for footer */
+    position: relative; /* Positioning */
+    bottom: 0; /* Bottom alignment */
+    width: 100%; /* Full width */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Stack links vertically on small screens */
+        margin: 10px 0; /* Margin for stacked items */
+    }
+
+    .destination-list {
+        grid-template-columns: 1fr; /* Single column on small screens */
+    }
+}

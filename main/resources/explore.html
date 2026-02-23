@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Guider - Kerala Destinations</title>
+    <link rel="stylesheet" href="explorestyle.css">
+</head>
+<body>
+<header>
+    <h1>Top Destinations in Kerala</h1>
+    <p>Explore the beauty and culture of Kerala through these must-visit destinations.</p>
+</header>
+<main>
+    <!-- Destination List -->
+    <section class="destination-list">
+        <!-- Destination Cards -->
+        <article class="destination" onclick="showModal('Munnar', 'Munnar is renowned for its vast tea plantations, scenic landscapes, and mist-covered hills. It is home to the Eravikulam National Park, which is a sanctuary for the endangered Nilgiri Tahr. The Anamudi Peak, the highest point in South India, offers panoramic views. Mattupetty Dam is another attraction, where visitors can enjoy boating and spot various species of wildlife..<br>September to March (for pleasant weather and scenic beauty).')">
+            <img src="Images/munnar.webp" alt="Munnar">
+            <h2>Munnar</h2>
+            <p>A hill station known for its tea plantations, misty hills, and serene atmosphere.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Alleppey', 'Often called the \Venice of the East\ Alleppey is famous for its picturesque backwaters and houseboat cruises. The town is also known for the Nehru Trophy Boat Race, held annually in the backwaters. Alappuzha Beach, with its historic lighthouse, adds to its charm. The town\'s old-world charm combined with natural beauty makes it a popular destination.<br>November to February (cool weather and best for houseboat cruises).')">
+            <img src="Images/alleppey.jpg" alt="Alleppey">
+            <h2>Alleppey (Alappuzha)</h2>
+            <p>Known as the "Venice of the East," famous for its houseboats and picturesque backwaters.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Kochi', ' Kochi is a vibrant port city that blends modernity with tradition. It is known for its historical sites such as Fort Kochi, where visitors can see Dutch colonial architecture, Chinese fishing nets, and the Mattancherry Palace. The Jewish Synagogue is another historic landmark. Kochi is also famous for its spice markets and thriving arts scene.<br> October to March (cooler and less humid).')">
+            <img src="Images/kochi.avif" alt="Kochi">
+            <h2>Kochi (Cochin)</h2>
+            <p>A port city blending modernity and tradition with its beaches, Dutch architecture, and spice markets.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Kumarakom', 'Kumarakom is famous for its tranquil backwaters and the Vembanad Lake, the largest lake in Kerala. The region is home to a bird sanctuary that attracts bird watchers and nature lovers. Visitors often enjoy houseboat cruises along the lake, which offer a unique way to explore the area\'s beauty. The serene surroundings and local culture make it a peaceful getaway.<br> September to March (ideal for bird watching and houseboat experiences).')">
+            <img src="Images/kumarakom.jpg" alt="Kumarakom">
+            <h2>Kumarakom</h2>
+            <p>A popular backwater destination with bird sanctuaries and scenic views.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Thekkady', 'Thekkady is known for the Periyar Wildlife Sanctuary, which is one of the most famous wildlife reserves in India. The sanctuary is home to elephants, tigers, and a variety of bird species. Tourists can enjoy boat rides on Periyar Lake, where they might spot wildlife. The spice plantations in the region also add to its allure.<br>October to February (pleasant weather for wildlife safaris).')">
+            <img src="Images/thekkady.jpg" alt="Thekkady">
+            <h2>Thekkady</h2>
+            <p>Known for the Periyar Wildlife Sanctuary, where you can experience boat rides and spot wildlife.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Wayanad', 'Wayanad is known for its lush greenery, waterfalls, and wildlife sanctuaries. The Edakkal Caves are famous for their ancient petroglyphs. The region is also home to Chembra Peak, which is popular for trekking, and Banasura Sagar Dam, which offers breathtaking views. The rich biodiversity and serene landscapes make Wayanad a favorite among nature enthusiasts.<br> October to May (for trekking and sightseeing).')">
+            <img src="Images/wayanad.jpg" alt="Wayanad">
+            <h2>Wayanad</h2>
+            <p>A beautiful district with waterfalls, caves, and sprawling spice plantations.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Varkala', 'Varkala is famous for its beautiful cliffs that rise dramatically from the Arabian Sea. Papanasam Beach is known for its spiritual significance and is believed to wash away sins. Varkala also has numerous temples and Ayurvedic centers, making it a center for health and wellness tourism. The laid-back vibe of the town attracts visitors looking for peace and relaxation.<br> October to March (for beach activities and pleasant weather).')">
+            <img src="Images/varkala.jpg" alt="Varkala">
+            <h2>Varkala</h2>
+            <p>A seaside town famous for its cliffs adjacent to the Arabian Sea, unique beaches, and spiritual vibe.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Thrissur', 'Thrissur is known as the cultural capital of Kerala. It is famous for the Thrissur Pooram, a grand temple festival that attracts thousands of visitors every year. The Vadakkunnathan Temple, Kerala Kalamandalam (a center for performing arts), and the Archaeological Museum are some of the key cultural landmarks. Thrissur is also known for its traditional Kerala architecture and festivals.<br> April to May (to witness the Thrissur Pooram festival).')">
+            <img src="Images/thissur.jpg" alt="Thrissur">
+            <h2>Thrissur</h2>
+            <p>Known as the "Cultural Capital of Kerala," famous for festivals like Thrissur Pooram.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Bekal', 'Bekal is famous for the Bekal Fort, which is one of the largest and best-preserved forts in Kerala. The fort\'s location by the Arabian Sea offers stunning views, making it a popular tourist spot. The nearby Bekal Beach and the scenic views around it further add to the region\'s appeal. The fort is also featured in several Bollywood films.<br> October to March (cooler and ideal for sightseeing).')">
+            <img src="Images/bekal.jpg" alt="Bekal">
+            <h2>Bekal</h2>
+            <p>Known for the Bekal Fort and nearby beach; the fort offers stunning views of the Arabian Sea.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Kollam', 'Kollam is known for its backwaters and Ashtamudi Lake, which is famous for its unique ecosystem. The town also has the Jatayu Earth Center, which is dedicated to the mythological bird Jatayu. The Thangassery Lighthouse and historical sites add to Kollam\'s charm. The town\'s traditional fishing industry also plays a significant role in its culture.<br> October to February (best for backwater cruises).')">
+            <img src="Images/kollam.webp" alt="Kollam">
+            <h2>Kollam (Quilon)</h2>
+            <p>A coastal town famous for its ports and the Ashtamudi Lake.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Thiruvananthapuram', 'Thiruvananthapuram, the capital city of Kerala, is famous for its historic landmarks and cultural richness. The Padmanabhaswamy Temple, one of the richest temples in the world, is located here. Kovalam Beach is famous for its beautiful coastline, while the Napier Museum showcases the region\'s art and culture. The city\'s vibrant atmosphere and historic significance attract numerous visitors.<br> October to February (cooler weather).')">
+            <img src="Images/thiruvananthapuram.jpg" alt="Thiruvananthapuram">
+            <h2>Thiruvananthapuram</h2>
+            <p>The capital city known for its historic sites, beaches, and vibrant culture.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Nelliampathy', 'Nelliampathy is known for its cool climate, dense forests, and tea and coffee plantations. The Seetharkundu Viewpoint offers panoramic views of the surrounding valleys. The area is perfect for trekking and nature walks, with rich biodiversity. The tranquil atmosphere makes Nelliampathy an ideal destination for those looking to escape the hustle and bustle of city life.<br> September to May (ideal for trekking and sightseeing).')">
+            <img src="Images/nelliyampathy.jpg" alt="Nelliampathy">
+            <h2>Nelliampathy</h2>
+            <p>Known for its dense forests, tea, and coffee plantations, and scenic viewpoints.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Guruvayur', 'Guruvayur is one of the most important pilgrimage centers in Kerala, famous for the Guruvayur Temple dedicated to Lord Krishna. The temple attracts millions of devotees every year. The town is also known for its elephant sanctuary, which houses over 50 elephants. Guruvayur is a spiritual hub, offering visitors a chance to experience Kerala’s religious culture.<br>October to March (pleasant weather for temple visits).')">
+            <img src="Images/gurvayur.jpg" alt="Guruvayur">
+            <h2>Guruvayur</h2>
+            <p>A major pilgrimage center, famous for the Guruvayur Temple.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Athirappilly Waterfalls', 'Athirappilly is the largest waterfall in Kerala, often referred to as the Niagara of India. The waterfall is located in the lush forests of the Western Ghats and is surrounded by rich flora and fauna. The Chalakudy River, which flows through the area, adds to the scenic beauty. The waterfall is a popular filming location for many movies.<br>September to January (post-monsoon for full water flow).')">
+            <img src="Images/athirapally.jpg" alt="Athirappilly Waterfalls">
+            <h2>Athirappilly Waterfalls</h2>
+            <p>The largest waterfall in Kerala, often referred to as the "Niagara of India."</p>
+        </article>
+
+
+        <article class="destination" onclick="showModal('Kovalam', 'Kovalam is famous for its crescent-shaped beaches, including Lighthouse Beach, Hawa Beach, and Samudra Beach. The town is known for its Ayurveda treatments and wellness resorts, attracting tourists looking for relaxation. Kovalam is also popular for water sports like surfing and parasailing. The tranquil atmosphere and vibrant nightlife make it a favorite beach destination.<br>September to March (best for beach activities).')">
+            <img src="Images/kovalam.jpg" alt="Kovalam">
+            <h2>Kovalam</h2>
+            <p>A beach town with crescent-shaped beaches and vibrant nightlife.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Kolukkumalai', 'Kolukkumalai is known for having the highest tea plantation in the world. The region offers breathtaking views of the Western Ghats and is famous for its sunrise vistas. The tea grown here is of the highest quality, and visitors can take tours of the tea estates. Kolukkumalai is also a popular trekking destination, with trails leading to scenic viewpoints.<br>September to May (for trekking and clear views).')">
+            <img src="Images/kolukkumalai.avif" alt="Kolukkumalai">
+            <h2>Kolukkumalai</h2>
+            <p>The highest tea plantation in the world, known for its breathtaking sunrise views.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Sabarimala', 'Sabarimala is famous for the Sabarimala Ayyappa Temple, one of the most important pilgrimage sites in India. The temple attracts millions of devotees every year during the annual pilgrimage season. The pilgrimage, known as the Makara Jyothi, is one of the largest religious gatherings in the world. The temple is set amidst dense forests and hills, making it a spiritually significant site.<br> November to January (pilgrimage season).')">
+            <img src="Images/sabarimala.jpg" alt="Sabarimala">
+            <h2>Sabarimala</h2>
+            <p>Famous for the Sabarimala Ayyappa Temple and its large annual pilgrimage.</p>
+        </article>
+
+        <article class="destination" onclick="showModal('Kozhikode', 'Kozhikode is famous for its historic significance, especially as a major port city during the spice trade. The city\'s beaches, including Kozhikode Beach and Kappad Beach, offer scenic views. Kozhikode is also known for its Malabar cuisine, especially dishes like biryani and seafood. The historic sites, such as the Pazhassi Raja Museum, add to the city\'s cultural appeal.<br> October to February (pleasant weather and ideal for beach activities).')">
+            <img src="Images/kozhikode.jpg" alt="Kozhikode">
+            <h2>Kozhikode (Calicut)</h2>
+            <p>Famous for its beaches, historic sites, and delicious Malabar cuisine.</p>
+        </article>
+    </section>
+</main>
+
+<!-- Modal -->
+<div id="destination-modal" class="modal">
+    <div class="modal-content">
+        <span id="close-modal" class="close">&times;</span>
+        <h2 id="modal-destination-name"></h2>
+        <p id="modal-destination-info"></p>
+    </div>
+</div>
+
+<script>
+    // Show Modal Function
+    function showModal(name, info) {
+        const [famousFor, bestTime] = info.split('<br>');
+        document.getElementById('modal-destination-name').innerHTML = name;
+        document.getElementById('modal-destination-info').innerHTML = `
+            <strong>Famous For:</strong> ${famousFor}<br><br>
+            <strong>Best Time to Visit:</strong> ${bestTime}
+        `;
+        document.getElementById('destination-modal').style.display = 'flex';
+    }
+
+    // Close Modal Function
+    document.getElementById('close-modal').onclick = function() {
+        document.getElementById('destination-modal').style.display = 'none';
+    }
+
+    // Close Modal when clicked outside of it
+    window.onclick = function(event) {
+        const modal = document.getElementById('destination-modal');
+        if (event.target == document.getElementById('destination-modal')) {
+            document.getElementById('destination-modal').style.display = 'none';
+        }
+    }
+</script>
+</body>
+</html>
